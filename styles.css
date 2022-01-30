@@ -1,0 +1,45 @@
+#title {
+  background-color: #fff
+}
+
+.navbar {
+  background-color: #fff;
+  color: black;
+  padding: 7% 15% 0;
+
+}
+
+.title-image {
+  text-align: center;
+  width: 80%;
+  position: absolute;
+  right: 0.5%;
+
+}
+
+.introduction {
+    padding: 7% 15%;
+
+}
+
+.intro {
+  padding-top: 25%;
+}
+
+.nav-item {
+  padding: 0 10px 0 10px;
+}
+
+@media (max-width: 991px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);}
+  #title{
+    text-align: center;
+  }
+
+}
+
+.form-inline {
+  text-align: center;
+}
